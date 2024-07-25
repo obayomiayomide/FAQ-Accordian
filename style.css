@@ -79,7 +79,7 @@ p {
     display: block;
 }
 
-@media (min-width: 10px) and (max-width: 425px) {
+@media (min-width: 10px) and (max-width: 645px) {
     @font-face {
         font-family: "WorkSans";
         src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf), 
