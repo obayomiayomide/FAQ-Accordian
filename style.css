@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "WorkSans";
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf), 
+    url(./assets/fonts/static/WorkSans-Regular.ttf), 
+    url(./assets/fonts/static/WorkSans-Bold.ttf), 
+    url(./assets/fonts/static/WorkSans-SemiBold.ttf);
+}
+
+
+body {
+    height: 100%;
+    font-family: "WorkSans", serif;
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+}
+
+.body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+.container {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 40px;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.top {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-it {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    margin: 0;
+    color: hsl(292, 42%, 14%);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h4 {
+    color: hsl(292, 42%, 14%);
+}
+
+h4:hover {
+    color: rgb(168, 0, 168);
+    cursor: pointer;
+}
+
+p {
+    display: none;
+    color: hsl(292, 16%, 49%);
+    margin-top: 0;
+}
+
+.p-show {
+    display: block;
+}
+
+@media (min-width: 10px) and (max-width: 425px) {
+    @font-face {
+        font-family: "WorkSans";
+        src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf), 
+        url(./assets/fonts/static/WorkSans-Regular.ttf), 
+        url(./assets/fonts/static/WorkSans-Bold.ttf), 
+        url(./assets/fonts/static/WorkSans-SemiBold.ttf);
+    }
+    
+    
+    body {
+        height: 100%;
+        font-family: "WorkSans", serif;
+        background-color: hsl(275, 100%, 97%);
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+        background-repeat: repeat-x;
+        background-attachment: scroll;
+    }
+    
+    .body {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+    }
+    
+    .container {
+        margin-top: 25%;
+        margin-bottom: 5%;
+        background-color: hsl(0, 0%, 100%);
+        padding: 10px 40px;
+        max-width: 70%;
+        border-radius: 15px;
+    }
+    
+    .top {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon-star {
+        height: 30px;
+    }
+    
+    .flex-it {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    h1 {
+        margin: 0;
+        color: hsl(292, 42%, 14%);
+        font-size: 50px;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    
+    h4 {
+        color: hsl(292, 42%, 14%);
+        font-size: 14px;
+    }
+    
+    h4:hover {
+        color: rgb(168, 0, 168);
+        cursor: pointer;
+    }
+    
+    p {
+        display: none;
+        color: hsl(292, 16%, 49%);
+        margin-top: 0;
+        font-size: 13px;
+    }
+    
+    .p-show {
+        display: block;
+    }
+}
+
