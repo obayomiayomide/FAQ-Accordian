@@ -15,11 +15,11 @@ var p4 = document.getElementById("p4");
 
 showBtn1.addEventListener("click", () => {
     showParagraph(showBtn1, hideBtn1, p1)
-})
+});
 
 showBtn2.addEventListener("click", () => {
     showParagraph(showBtn2, hideBtn2, p2)
-})
+});
 
 showBtn3.addEventListener("click", () => {
     showParagraph(showBtn3, hideBtn3, p3)
@@ -56,3 +56,19 @@ function hideParagraph(showBtn, hideBtn, paragraph) {
     hideBtn.setAttribute("class", "hidden");
     paragraph.removeAttribute("class", "p-show");
 };
+
+// Can use easy code
+// 1. Use the toggle method on the element className that will hide the text.
+// 2. Change the source of the toggle button.
+
+/*toggleButton.addEventListener("click", () => {
+    hiddenElement.classList.toggle("classValue") // i.e the value that hides the element.
+
+    // change toggle button by changing the text content or image source as the case may be
+    if (toggleButton.src.endsWith("sourceName e.g icon-plus")) {
+        toggleButton.src = "newSourceNameWithPath"
+    } else {
+        // Remain previous sourcename
+        toggleButton.src = "sourceNameWithPath"
+    }
+});*/
